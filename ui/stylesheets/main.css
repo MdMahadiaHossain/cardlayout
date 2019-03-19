@@ -1,0 +1,426 @@
+a:focus {
+    outline: none;
+}
+
+
+button::-moz-focus-inner {
+    border: 0;
+}
+
+
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+img,
+figure,
+div,
+form,
+input,
+ul,
+li {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    border-style: none;
+    list-style-type: none;
+}
+
+html,
+body,
+form {
+    height: 100%;
+}
+
+/* default controls ends */
+
+.searchBar {
+    background: #233040;
+}
+
+.logo {
+    color: #FF9900;
+    padding-top: 18px;
+    font-weight: bold;
+}
+
+.kpv_top_search_form {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.kpv_top_search_form input {
+    border-radius: 35px;
+}
+
+.kpv_top_search_button {
+    display: none;
+}
+
+nav {
+
+    background: #233040;
+}
+
+.kpv-top-nav-ul li {
+    color: white;
+    line-height: 0px;
+    font-size: 13px;
+}
+
+.kpv-top-nav-ul li div {
+
+    background: rgba(35, 48, 64, 1);
+    background: -moz-linear-gradient(top, rgba(35, 48, 64, 1) 0%, rgba(64, 88, 117, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(35, 48, 64, 1)), color-stop(100%, rgba(64, 88, 117, 1)));
+    background: -webkit-linear-gradient(top, rgba(35, 48, 64, 1) 0%, rgba(64, 88, 117, 1) 100%);
+    background: -o-linear-gradient(top, rgba(35, 48, 64, 1) 0%, rgba(64, 88, 117, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(35, 48, 64, 1) 0%, rgba(64, 88, 117, 1) 100%);
+    background: linear-gradient(to bottom, rgba(35, 48, 64, 1) 0%, rgba(64, 88, 117, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#233040', endColorstr='#405875', GradientType=0);
+
+    line-height: 20px;
+    font-size: 13px;
+}
+
+.kpv-top-nav-ul li a {
+    color: white;
+}
+
+.nav-item {
+    margin-right: 10px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: 0rem;
+}
+
+.kpv-right-menu {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    line-height: 0px;
+
+}
+
+.kpv-right-menu li {
+    float: left;
+    font-size: 13px;
+}
+
+.kpv-right-menu li a {
+    line-height: 0px;
+    color: white;
+}
+
+.kpv-right-menu li div {
+
+    background: rgba(35, 48, 64, 1);
+    background: -moz-linear-gradient(top, rgba(35, 48, 64, 1) 0%, rgba(64, 88, 117, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(35, 48, 64, 1)), color-stop(100%, rgba(64, 88, 117, 1)));
+    background: -webkit-linear-gradient(top, rgba(35, 48, 64, 1) 0%, rgba(64, 88, 117, 1) 100%);
+    background: -o-linear-gradient(top, rgba(35, 48, 64, 1) 0%, rgba(64, 88, 117, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(35, 48, 64, 1) 0%, rgba(64, 88, 117, 1) 100%);
+    background: linear-gradient(to bottom, rgba(35, 48, 64, 1) 0%, rgba(64, 88, 117, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#233040', endColorstr='#405875', GradientType=0);
+
+}
+
+.kpv-right-menu li div a {
+    line-height: 20px;
+    font-size: 13px;
+}
+
+.kpv-right-menu li a {
+    padding-right: 0px;
+}
+
+.kpv-cart {
+    position: relative;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: -4px;
+
+}
+
+.kpv-cart-amount {
+    position: absolute;
+    top: 0px;
+}
+
+.kpv-humburger {
+    padding-top: 3px;
+    display: none;
+}
+
+/* css element class starts */
+.kpv-background-darkBlue {
+    background: #233040;
+}
+
+.font-18px {
+    font-size: 18px;
+}
+
+.margin-top-bot-25px {
+
+    margin: 25px 0px 25px 0px;
+}
+
+.margin-left-0px {
+    margin-left: 0px;
+}
+
+.margin-right-0px {
+    margin-right: 0px;
+}
+
+.padding-left-0px {
+    padding-left: 0px;
+}
+
+.padding-right-0px {
+    padding-right: 0px;
+}
+
+.test-border {
+    border: 1px solid black;
+}
+
+.background-color-f2f2 {
+    background: #F2F2F2
+}
+
+.font-size-13px {
+    font-size: 13px;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.padding-5px {
+    padding: 5px;
+}
+
+.font-size-10px {
+    font-size: 10px;
+}
+
+/* css element class ends */
+
+/* side menubar starts */
+.kpv-sidemenubar {
+    background: #233040;
+    min-height: 100%;
+    height: 100%;
+    display: none;
+}
+
+#kpv-sidemenubar-ul li {
+    color: white;
+    line-height: 40px;
+    font-size: 13px;
+}
+
+#kpv-sidemenubar-ul li a {
+    color: white;
+    line-height: 40px;
+    font-size: 13px;
+}
+
+.kpv-dropdown>div {
+    display: none;
+
+    background: rgba(35, 48, 64, 1);
+    background: -moz-linear-gradient(top, rgba(35, 48, 64, 1) 0%, rgba(64, 88, 117, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(35, 48, 64, 1)), color-stop(100%, rgba(64, 88, 117, 1)));
+    background: -webkit-linear-gradient(top, rgba(35, 48, 64, 1) 0%, rgba(64, 88, 117, 1) 100%);
+    background: -o-linear-gradient(top, rgba(35, 48, 64, 1) 0%, rgba(64, 88, 117, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(35, 48, 64, 1) 0%, rgba(64, 88, 117, 1) 100%);
+    background: linear-gradient(to bottom, rgba(35, 48, 64, 1) 0%, rgba(64, 88, 117, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#233040', endColorstr='#405875', GradientType=0);
+
+    padding-left: 20px;
+}
+
+
+.kpv-dropdown>div>ul>li {
+    border-bottom: 1px solid rgb(104, 104, 148);
+}
+
+/* side menubar ends */
+
+/* card starts */
+.item-card {
+    border: 1px solid rgb(214, 214, 214);
+    position: relative;
+    width: 155px;
+    min-width: 155px;
+    margin-bottom: 33px;
+}
+
+.company li {
+    display: inline;
+    font-size: 13px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.company img {
+    padding: 5px
+}
+
+.item-intro {
+    position: relative;
+}
+
+.seller-badge {
+    background: gold;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.prod-name {
+    font-size: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #626C7A;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+
+.price {
+    font-size: 13px;
+    padding-left: 5px;
+    margin-top: 5px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 27px;
+}
+
+.ratings {
+    padding: 5px;
+    position: absolute;
+    bottom: -3px;
+
+}
+
+.kpv-btn-details {
+    padding: 5px 13px 5px 13px;
+    background: rgba(35, 48, 64, 1);
+    background: -moz-linear-gradient(top, rgba(35, 48, 64, 1) 0%, rgba(64, 88, 117, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(35, 48, 64, 1)), color-stop(100%, rgba(64, 88, 117, 1)));
+    background: -webkit-linear-gradient(top, rgba(35, 48, 64, 1) 0%, rgba(64, 88, 117, 1) 100%);
+    background: -o-linear-gradient(top, rgba(35, 48, 64, 1) 0%, rgba(64, 88, 117, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(35, 48, 64, 1) 0%, rgba(64, 88, 117, 1) 100%);
+    background: linear-gradient(to bottom, rgba(35, 48, 64, 1) 0%, rgba(64, 88, 117, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#233040', endColorstr='#405875', GradientType=0);
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    width: 100%;
+    bottom: -32px;
+}
+
+.kpv-btn-details:hover {
+    padding: 5px 13px 5px 13px;
+
+    background: #233040;
+    background: -moz-linear-gradient(top, #233040 0%, #233040 100%);
+    background: -webkit-linear-gradient(top, #233040 0%, #233040 100%);
+    background: linear-gradient(to bottom, #233040 0%, #233040 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#233040', endColorstr='#233040', GradientType=0);
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    width: 100%;
+    bottom: -32px;
+}
+
+/* card ends */
+
+.card-container-manager{
+       margin-left:0px
+}
+
+
+
+@media only screen and (max-width: 992px) {
+    .kpv-top-nav-ul {
+        display: none;
+    }
+
+    .kpv-humburger {
+        display: inherit;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 375px) {
+    .logo {
+        display: none;
+    }
+
+
+}
+/*adjusting item box container margin to screen edge */
+@media only screen and (max-width: 991px) {
+   .card-container-manager {
+   	margin-left: 33px;
+   }
+}
+@media only screen and (max-width: 536px) {
+   .card-container-manager {
+   	margin-left: 10px;
+   }
+}
+@media only screen and (max-width: 490px) {
+   .card-container-manager {
+   	margin-left: -10px;
+   }
+}
+@media only screen and (max-width: 469px) {
+   .card-container-manager {
+   	margin-left: 38px;
+   }
+}
+
+@media only screen and (max-width: 374px) {
+   .card-container-manager {
+   	margin-left: 3px;
+   }
+}
+/*মানে মেক্সিমাম ৩৩৮ পর্যন্ত -14px margin-left*/
+@media only screen and (max-width: 338px) {
+   .card-container-manager {
+   	margin-left: -14px;
+   }
+}
+@media only screen and (max-width: 310px) {
+   .card-container-manager {
+   	margin-left: 45px;
+   }
+}
+/*adjusting item box container margin to screen edge ends*/
